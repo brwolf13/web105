@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks, classes, id</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container" id="block">
+        <div class="container">
+            <h1>Sample block level elements</h1>
+            <div>
+                <h3 class="blue">Address</h3>
+                <p class="bold">Address fields are used to communicate contact infomation to a user.</p>
+                    <address>
+                        Written by: <a href="mailto:bwolf@students.mchenry.edu">Bryan Wolf</a><br>
+                        Visit my work at: http://bwolf.mccdgm.net/web105/ <br>
+                        123 Example Ln. <br>
+                        Crystal Lake, IL 60014
+                    </address>
+                <h3 class="blue">Form</h3>
+                <p class="bold">Forms are used to collect infomation from a user and send it to another source.</p>
+                <form action="get"></form>
+                        <label for="coursename">Course Name:</label>
+                        <input type="text" id="coursename" name="coursename">
+                        <label for="instructor">Instructor Name:</label>
+                        <input type="text" id="instructor" name="instructor">
+                        <label for="grade">Final Grade:</label>
+                        <input type="text" id="fgrade" name="fgrade">
+                        <input type="submit" value="Submit">
+                </form>
+                <h3 class="blue">Ordered List</h3>
+                <p class="bold">Used for creating an ordered list. Can be modified to start at a number higher than one.</p>
+                <ol>
+                    <li>Address</li>
+                    <li>Form</li>
+                    <li>Ordered List</li>
+                </ol>
+                <h3 class="blue">Unordered List</h3>
+                <p class="bold">Used for creating an unordered list - often (but not always) using bullet points</p>
+                <ul>
+                    <li>Address</li>
+                    <li>Form</li>
+                    <li>Unordered List</li>
+                </ul>
+                <h3 class="blue">Description List</h3>
+                <p class="bold">A list showing terms and their descriptions</p>
+                <dl>
+                    <dt>Term One</dt>
+                    <dd>Description of term one</dd>
+                    <dt>Term Two</dt>
+                    <dd>Description of term two</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="inline">
+        <h1>Inline Elements</h1>
+            <h3 class="blue">Abbreviations</h3>
+                <p>This course is being taken at <abbr title="McHenry County College">MCC</abbr>.</p>
+            <h3 class="blue">Bold</h3>
+                <p>This function is used to <b>style text as bold</b>.</p>
+            <h3 class="blue">Breaks</h3>
+                <p>Used to create...<br>
+                    ...line breaks in text</p>
+            <h3 class="blue">Button</h3>
+                <p>Creates a clickable button which can be tied to an action (like submit)</p>
+                <button type="button">Click here</button>
+            <h3 class="blue">Quotation</h3>
+                <p>Used to add <q>a quote from another source</q> to the text.</p>
+    </div>
+    <div class="container" id="html5">
+        <h1 class="gold">New HTML5 Elements</h3>
+            <h3 class="blue">Details</h3>
+            <details>
+                <summary>Created 03/2020</summary>
+                <p>Created March 2020 by Bryan Wolf</p>
+                <p>Created for Web105 at MCC</p>
+            </details>
+            <h3 class="blue">Footer</h3>
+            <footer>
+                <p>Used to define footer info for a document</p>
+                <p>Created March 2020 for WEB105</p>
+            </footer>
+            <h3 class="blue">Mark</h3>
+                <p>Used to <mark>highlight part of the text</mark> in a line.</p>
+            <h3 class="blue">Meter</h3>
+                <p>Used to show a meter reading</p>
+                <label for="course_completion">Course completion:</label>
+                <meter id="course_completion" value="3" min="0" max="10">30 Percent</meter>
+            <h3 class="blue">Progress Bar</h3>
+                <p>Used to display current progress</p>
+                <label for="progress">Total progress:</label>
+                <progress id="progress" value="30" max="100">30%</progress>
+    </div>
+</body>
+
+</html>

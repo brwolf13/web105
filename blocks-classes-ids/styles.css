@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightseagreen;
+    font-size: 1.25em;
+}
+
+.container{
+    background: palegoldenrod;
+    color: brown;
+    border: 3px solid red;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#block{
+    background: lightskyblue;
+}
+
+#inline{
+    background: lightgray;
+}
+
+#html5{
+    background: lightsteelblue;
+}
+
+.blue{
+    color:blue;
+    font-weight: bold;
+    background: ivory;
+    padding: 3px;
+}
+
+.bold{
+   font-weight: bold;
+   color: black;
+}
